@@ -59,6 +59,7 @@ if (file_exists($root_dir . '/.env')) {
  * Default: production
  */
 define('WP_ENV', env('WP_ENV') ?: 'production');
+define('WPLANG', 'fr_FR');
 
 /**
  * Infer WP_ENVIRONMENT_TYPE based on WP_ENV
